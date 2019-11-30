@@ -1,0 +1,43 @@
+
+.padding-lr-xxl {
+	padding-left: 60rpx;
+	padding-right: 60rpx;
+}
+.search-button {
+	width: 38rpx;
+	height: 38rpx;
+	margin-left: 60rpx;
+}
+.ph-text {
+	font-size: 24rpx;
+	color: #403833;
+}
+.cu-bar .search-form {
+	background-color: #FFFFFF;
+}
+.round-bar {}
+.bar-shadow {
+	height: 100%;
+}
+.search {
+	padding-top: 44rpx;
+	padding-bottom: 44rpx;
+	color: #0081FF;
+}
+.more-button {
+	width: 55rpx;
+	height: 55rpx;
+	border-radius: 27rpx;
+}
+.bar-text {
+	color: #403833;
+	font-size: 55rpx;
+	font-weight: bold;
+}
+.search-form {
+	margin: 0 0;
+}
+.more-button:active {
+	background-color: #fff3e2;
+}
+

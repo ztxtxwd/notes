@@ -1,0 +1,18 @@
+
+.cu-bar .content {
+    font-size: 40rpx;
+}
+.info-btn {
+	margin-right: 56rpx;
+	font-size: 40rpx;
+}
+.cu-bar .action:first-child {
+    margin-left: 72rpx;
+}
+.body {
+    background-color: #f3f3f3;
+    font-size: 14px;
+    color: #4a5467;
+    font-family: Didact Gothic;
+}
+

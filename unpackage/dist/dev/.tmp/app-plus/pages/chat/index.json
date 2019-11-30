@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cu-custom": "/pages/component/cu-custom",
+    "chat-bottom": "/pages/component/chat-bottom"
+  }
+}

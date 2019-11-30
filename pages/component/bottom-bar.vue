@@ -1,0 +1,83 @@
+<template>
+	<view>
+		<view class="bar flex justify-end" style="height: 200rpx">
+
+
+				<view class="new-message-btn bg-white shadow-warp shadow margin-right-xl">
+					<image src="../../static/icons/Note.svg" class="bar-button message-btn" mode="aspectFit" @tap="newMessage()"></image>
+				</view>
+			
+		</view>
+	</view>
+
+</template>
+
+<script>
+	export default {
+		methods: {
+			newMessage: function() {
+				uni.navigateTo({
+					url: '../chat/index'
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	.bar {
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		z-index: 1024;
+		text-align: center;
+	}
+
+	.message-btn {
+		margin-top: 38rpx;
+	}
+
+	.bg-purple-blue {
+		background-image: linear-gradient(225deg, #40d4e6, #6584fd);
+		color: #ffffff;
+	}
+
+	.action-new-message-btn {
+	}
+
+	.new-message-btn {
+		width: 140rpx;
+		height: 140rpx;
+		border-radius: 50%;
+		top: 10rpx;
+	}
+
+	.new-message-blank {
+		width: 160rpx;
+		height: 160rpx;
+		border-radius: 50%;
+		position: relative;
+		margin: auto;
+		display: block;
+		line-height: 1;
+		background-color: #f3f3f3;
+	}
+
+	.home-button {
+		margin-left: 140rpx;
+	}
+
+	.bar-button {
+		width: 60rpx;
+		height: 60rpx;
+	}
+
+	.my-button {
+		margin-right: 140rpx;
+	}
+
+	.round-bar {
+		border-radius: 70rpx 70rpx 0 0;
+		background-color: #FFFFFF;
+	}
+</style>

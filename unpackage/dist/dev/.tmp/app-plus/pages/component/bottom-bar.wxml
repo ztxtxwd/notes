@@ -1,0 +1,1 @@
+<view><view class="bar flex justify-end" style="height:200rpx;"><view class="new-message-btn bg-white shadow-warp shadow margin-right-xl"><image class="bar-button message-btn" src="../../static/icons/Note.svg" mode="aspectFit" data-event-opts="{{[['tap',[['newMessage']]]]}}" bindtap="__e"></image></view></view></view>

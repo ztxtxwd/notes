@@ -1,0 +1,32 @@
+
+.item {
+	background-color: #fec674;
+	border-radius: 50rpx;
+	height: 210rpx;
+}
+.time-text {
+	color: #403833;
+	font-size: 26rpx;
+	white-space: nowrap;
+}
+.content-text {
+	height: 65rpx;
+	font-size: 26rpx;
+	color: #403833;
+	-webkit-line-clamp: 2; /*设置 需要显示的行数 */
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis; /*文字隐藏后添加省略号 */
+	line-height: 36rpx;
+}
+.name-text {
+	color: #403833;
+	font-size: 32rpx;
+}
+.item-middle {
+}
+.item-end {
+	margin-right: 0;
+	padding-right: 0rpx;
+}
+
